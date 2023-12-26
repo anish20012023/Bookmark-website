@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+.activeQtn {
+  transform: rotate(180deg);
+  transition: all 0.6s;
+}
+@tailwind utilities;
+
+@layer components {
+  .current {
+    border-bottom: 3px solid red;
+  }
+
+}
